@@ -33,20 +33,36 @@
 
         <section class="info-section">
             <h2 class="info-section-header">Some random information</h2>
-            <ul class="food-cards">
-                <li>
-                    <img src="./images/pancakes.jpeg" width="200px" alt="Maple syrup pancakes">
-                    <a href="./recipes/pancakes.html">Good Old Fashioned Pancakes</a>
-                </li>
-                <li>
-                    <img src="./images/hamburger.jpeg" width="200px" alt="Juicy hamburger">
-                    <a href="./recipes/hamburger.html">Juiciest Hamburgers Ever</a>
-                </li>
-                <li>
-                    <img src="./images/ramen.jpeg" width="200px" alt="Ramen noodle soup">
-                    <a href="./recipes/ramen.html">Ramen Noodle Soup</a>
-                </li>
-            </ul>
+            <div class="container">
+                <div class="food-cards">
+                    <!-- REFACTOR THIS ---------------------------------------->
+                    <div class="card">
+                        <a href="./recipes/pancakes.html">
+                            <div class="img-border">
+                                <img class="img-card" src="./images/pancakes.jpeg" alt="Maple syrup pancakes">
+                            </div>
+                            <p>Good Old Fashioned Pancakes</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="./recipes/hamburger.html">
+                            <div class="img-border">
+                                <img class="img-card" src="./images/hamburger.jpeg" alt="Juicy hamburger">
+                            </div>
+                            <p>Juiciest Hamburgers Ever</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="./recipes/ramen.html">
+                            <div class="img-border">
+                                <img class="img-card" src="./images/ramen.jpeg" alt="Ramen noodle soup">
+                            </div>
+                            <p>Ramen Noodle Soup</p>
+                        </a>
+                    </div>
+                    <!-- ------------------------------------------------------>
+                </div>
+            </div>
         </section>
     </body>
 </html>

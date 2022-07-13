@@ -88,28 +88,43 @@ a {
     padding: 12px 0;
 }
 
-.info-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .info-section-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
     margin-bottom: 40px;
+    text-align: center;
 }
 
-/* .food-cards {
-    flex: 1 0 33%;
+/* REFACTOR THIS ------------------------------------------------*/
+.food-cards {
     display: flex;
+    text-align: center;
+    justify-content: space-around;
+
 }
 
-.food-cards li {
-    width: 33%;
+.img-border {
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    border: 3px solid #3882F6;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+    justify-content: center;
+}
+
+.img-card {
+    width: auto;
+    height: 200px;
+}
+
+.card {
+    max-width: 200px;
+}
+/* --------------------------------------------------------------*/
+
+.card p {
+    font-size: 18px;
+    padding: 12px 0;
+}
