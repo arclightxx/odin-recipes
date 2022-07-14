@@ -96,35 +96,91 @@ a {
     text-align: center;
 }
 
-/* REFACTOR THIS ------------------------------------------------*/
 .food-cards {
     display: flex;
     text-align: center;
     justify-content: space-around;
-
-}
-
-.img-border {
-    width: 200px;
-    height: 200px;
-    border-radius: 24px;
-    border: 3px solid #3882F6;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-.img-card {
-    width: auto;
-    height: 200px;
 }
 
 .card {
     max-width: 200px;
 }
-/* --------------------------------------------------------------*/
+
+.img-border {
+    width: 200px;
+    height: 200px;
+    border-radius: 36px;
+    border: 4px solid #B17E4B;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s ease-out;
+}
+
+.img-border:hover {
+    box-shadow: 0px 5px 15px black;
+}
 
 .card p {
     font-size: 18px;
+    font-weight: 500;
     padding: 12px 0;
+    color: #1F2937;
+}
+
+.info-section {
+    margin-bottom: 80px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 60px 0;
+    margin-bottom: 80px;
+}
+
+.quote {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: end;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.white-sign-up-button {
+    background-color: inherit;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 30px;
+}
+
+.sign-up-section {
+    margin-bottom: 80px;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
